@@ -8,7 +8,7 @@
 3. After I talked with my LA, Eric, about his taste in games, he said that he really likes multiplayer FPS games such as GTFO and Deep Rock Galactic. I think his taste is pretty similar to mine because those games can also create a lot of tension, danger, and action, which connects to the horror and survival feeling that I am interested in. Even though I am deciding to make a 2D platformer instead of an FPD, we both seem to like games where the player has to stay alert, react quickly, and also needs to deal with threatening situations. And I also think that we have a common liking for games that have a strong atmosphere and make the player feel pressure during gameplay.
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+![GDIM 33 break down - Frame 1](https://github.com/user-attachments/assets/569fc37b-f900-4fe6-af85-497cb8d25dc3)
 
 
 ## W2
