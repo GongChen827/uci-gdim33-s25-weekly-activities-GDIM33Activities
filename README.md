@@ -13,6 +13,6 @@
 
 ## W3
 ### Activity 1
-[New update break-down](https://github.com/user-attachments/assets/55656017-8f0d-480b-a9e0-94875035a928)
+![New update break-down](https://github.com/user-attachments/assets/55656017-8f0d-480b-a9e0-94875035a928)
 
 Continue adding additional headers below this one for future weeks and future activities.
