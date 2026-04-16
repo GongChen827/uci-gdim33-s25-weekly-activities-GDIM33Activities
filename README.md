@@ -15,4 +15,10 @@
 ### Activity 1
 ![New update break-down](https://github.com/user-attachments/assets/55656017-8f0d-480b-a9e0-94875035a928)
 
+### Activity 2
+1. Saving the event name for the explore-to-dialogue transition as a Scene variable is helpful because a Scene variable can be shared across different graphs in the same scene. That makes it much easier to keep the event name consistent. If I want to change the event name later, I only need to change it in one place instead of editing many nodes by hand. And I think it also makes the graph a little cleaner and easier to understand.
+2. I really think that using a Debug.Log() node helped me test my graphs step by step before the whole system was finished. For example, I could click the walrus and check the Console to see if the click event was really firing. That helped me know whether the problem was in the click graph, the custom event, or the state transition, and also, it was useful because I did not have to guess where the bug was.
+3. The Set Cursor Lock State is not really important for my Vertical Slice right now. My game is a 2D platformer, so that means I need the player not to need the same mouse-look control as the Week 3 activity. Because of that, locking and unlocking the cursor is not one of the core mechanics of my project. And I may still use cursor settings later for menus or UI, but it is not a major part of the gameplay loop I pitched in the draft right now.
+4. I do think that the idea of a game state is relevant to my Vertical Slice. My project's aim to has different parts of gameplay, like normal platforming, having no power-up, having the light power-up, fighting the boss, and reaching the end. A state system can really help organize those changes more clearly, because each state can control different behavior, appearance, or abilities. For example, my player can have a NoPower state and a Powered state, and the game can also later use states for the final enemy or win/lose conditions.
+
 Continue adding additional headers below this one for future weeks and future activities.
