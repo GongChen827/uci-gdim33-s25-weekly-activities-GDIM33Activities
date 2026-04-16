@@ -12,6 +12,7 @@
 
 
 ## W2
+### Activity 1
 Write your W2 Devlog here.
 
 Continue adding additional headers below this one for future weeks and future activities.
