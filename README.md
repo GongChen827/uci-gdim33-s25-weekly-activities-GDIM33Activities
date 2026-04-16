@@ -11,8 +11,8 @@
 ![GDIM 33 break down - Frame 1](https://github.com/user-attachments/assets/569fc37b-f900-4fe6-af85-497cb8d25dc3)
 
 
-## W2
+## W3
 ### Activity 1
-Write your W2 Devlog here.
+[New update break-down](https://github.com/user-attachments/assets/55656017-8f0d-480b-a9e0-94875035a928)
 
 Continue adding additional headers below this one for future weeks and future activities.
