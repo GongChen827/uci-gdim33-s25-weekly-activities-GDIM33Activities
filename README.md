@@ -35,5 +35,24 @@ One important thing that I learned is that there is no clear goal for the player
 3. I think the Regenerate Nodes button is used to update the Visual Scripting node library so that Unity can recognize code from Unity itself, installed packages, and my own C# scripts. This is important because when I want to add some new classes, methods, or custom event types, those things will not automatically show up as Visual Scripting nodes until Unity rebuilds that library. It is really necessary because activities like this one will need to recognize custom code, such as the dialogue event, and also include the PlayerReplyW4 type in the node system.
 4. For bonus point: <img width="495" height="313" alt="截屏2026-04-22 下午8 28 06" src="https://github.com/user-attachments/assets/8d34f022-98e2-4110-8a96-4d355291db0b" />
  
+## W5
+### Activity 1
+For this activity, my goal is to integrate the Animator Unity system into my vertical slice game. And I want the player character to change animations based on what the player is doing, including idle, run, jump, attack/light burst, and dead. 
+
+1. **Create the basic Animator setup and test each animation by itself.**
+   1. First, I will create the animation clips I need for the player, such as Idle, Run, Jump, Attack, and Dead. And then I can preview them in the Animation window to make sure the sprite frames play correctly.
+   2. Then I will add the Animator component to the Player GameObject and create a new Animator Controller, and assign this controller to the Player’s Animator component. Lastly, I will set Idle as the default animation state, then I can try to press Play, and check if the player starts by playing the idle animation.
+   3. Next, I can try to test every animation clip one at a time by temporarily making each clip the default state in the Animator Controller. And I will run the game after each change and check that different animations like Idle, Run, Jump, Attack, and Dead can each play correctly by themselves before making any transitions between them.
+
+2. **Connect normal movement animations: Idle, Run, and Jump.**
+   1. Add Animator parameters for the basic movement states first, then I plan to use parameters like Speed as a Float and IsGrounded as a Bool. For testing, I will run the game and use Debug Logs from the movement/ground check graph in order to make sure the player’s movement value and grounded value are changing in the right way.
+   2. For the player movement graph, I can connect the horizontal movement input to the Animator’s Speed parameter. When the player is not pressing movement keys, Speed should be 0, and when the player moves left or right, Speed should be greater than 0. And I will use Debug Log to print the Speed value while pressing and releasing movement keys.
+   3. In the ground check part of the player graph, I will connect the grounded variable to the Animator’s IsGrounded parameter, so that when the player is touching the ground, IsGrounded should be true, and when the player jumps, it should be false.
+   4. In the Animator Controller, I will try to create transitions between Idle, Run, and Jump. For example, Idle will play when Speed is 0, and IsGrounded is true. Run will play when Speed is greater than 0, and IsGrounded is true. And also, Jump will play when IsGrounded is false. After doing these, I can play and check the player's animation visually.
+
+3. **Add special animations for Attack and Dead.**
+   1. For doing these, I can first add an Animator parameter called Attack as a Trigger, because the attack/light burst animation should happen only when the player presses E after collecting the power-up, and then I can test it by connecting the E key ability graph to a Debug Log that prints “attack animation triggered” when the player uses the light burst.
+   2. After the Debug Log works, I will connect the ability graph to the Animator and set the Attack trigger when the light burst ability is used. This should only happen after the player has collected the shrine power-up and has hasPower = true. During the game, I will collect the shrine, press E, and check if the Attack animation plays.
+   3. Then, I think I can add an Animator parameter called IsDead as a Bool, so when the health script detects that the player has no hearts left or falls into the void, it will set IsDead to true and play the Dead animation. After doing these, I will test both deaths by playing the game and touching hazards until health reaches 0, and falling into the void.
 
 Continue adding additional headers below this one for future weeks and future activities.
