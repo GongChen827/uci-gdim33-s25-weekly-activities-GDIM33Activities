@@ -113,4 +113,13 @@ I also fixed several animation problems during testing (I finished fixing them a
 
 The game Valorant uses many rendering effects in order to make the whole gameplay information much easier to understand for the players. The flash effect changes the whole screen to show that the player is blinded, the reveal effect highlights enemies so players can understand they have been detected, and the smoke effect creates a visible area that blocks sightlines. All of these effects are very important because they are not only visual polish but also directly communicate gameplay states to the player. 
 
+### Activity 2
+1. ![Shader Graph worked in class](https://github.com/user-attachments/assets/b14526b0-01e6-4646-aa07-a4359ec476bf)
+2. For today's in-class work, I spent a little time improving my Shader Graph effect first, which is the SG_SwordQiArc shader that is used to create the sword qi slash for the player's light ability. And since I already finished the shader and activation during Milestone 3, I focused more on polishing it. I adjusted the sword qi's size, travel distance, and also the starting position so that the visual effect better matches the actual attacking range of the light burst ability. And this can make the attack more readable because the player can better understand where the ability can hit enemies or destroy the dark barriers.
+
+   Because I have finished all the features for Milestone 3, I also used some time to improve the level construction and the decoration. I worked on adding more decoration to the level so that the environment feels less empty and more like the dark island setting from my pitch, then I focused especially on making important areas, such as the shrine area, dark barrier sections, and also the final arena, which all feel much more complete and intentional.
+
+   Lastly, I worked on the lighting of the scene. I tested to make the overall level darker and using torch-style 2D lighting so that the game has a stronger horror/island atmosphere. This also helps the light ability to stand out more clearly against the darker background. 
+
+
 Continue adding additional headers below this one for future weeks and future activities.
