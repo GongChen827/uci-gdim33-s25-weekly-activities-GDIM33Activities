@@ -121,5 +121,11 @@ The game Valorant uses many rendering effects in order to make the whole gamepla
 
    Lastly, I worked on the lighting of the scene. I tested to make the overall level darker and using torch-style 2D lighting so that the game has a stronger horror/island atmosphere. This also helps the light ability to stand out more clearly against the darker background. 
 
+## W10
+### Activity 1
+1. Since the last Milestone, I mainly added some new features and polished my build. The biggest one is activating my Shader Graph effects for the player's light ability, which is the energy glow and the sword qi slash effect. And I also added the darker scene lighting, torch lighting, and some audio effects. My game now has more complete feedback through background music, boss music, movement and jumping sounds, light burst sounds, enemy sounds, barrier and exit sounds, UI click sounds, and also torch fire audio that becomes audible when the player is near a torch.
+2. [My itch link](https://gong-chen.itch.io/gdim-33-final-submission)
+3. For today's playtest, my main goal was to test the new audio and lighting, which I wanted to see if the darker lighting made the whole game feel better without making the level too hard to read. I also wanted to test if the audio helped the game to feel more complete, especially the background music, boss music, torch fire sound, movement sounds, and also the ability sound effects.
+4. During the playtesting, my group members all said that my audio and lighting worked really well and made the game feel much cooler and more polished. And they thought the darker scene fit the horror island mood better, and the light ability stood out more clearly against the darker background. They also like my torch fire sound, which was connected to distance, because it made the torches feel like part of the game world instead of just decoration. 
 
 Continue adding additional headers below this one for future weeks and future activities.
